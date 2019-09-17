@@ -1,0 +1,41 @@
+.profile {
+    &__img {
+    margin-top: 70%;
+    margin-bottom: 200px;
+    margin-left: 150px;
+    position: relative;
+    position: absolute;
+  }
+
+  &__detail {
+    background: rgba(255, 255, 255, 0.9);
+    width: 700px;
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    padding: 70px 30px;
+    text-align: center;
+
+
+    span{
+      font-size: 20px;
+    }
+
+    h1{
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    h2{
+      font-size: 20px;
+    }
+
+    p{
+      margin-top: 40px;
+      margin-right: 15%;
+      margin-left: 15%;
+      text-align: left;
+    }
+  }
+}
