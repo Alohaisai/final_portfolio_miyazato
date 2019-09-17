@@ -1,0 +1,14 @@
+.card {
+  width: calc(33.3% - 64px / 3);
+  margin-right: 32px;
+  margin-bottom: 63px;
+
+  &__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}

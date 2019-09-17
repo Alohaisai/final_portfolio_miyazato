@@ -1,8 +1,10 @@
 .profile {
+    height: 100vh;
+
     &__img {
-    margin-top: 70%;
-    margin-bottom: 200px;
-    margin-left: 150px;
+    margin-top: 10%;
+    // margin-bottom: 100px;
+    margin-left: 50px;
     position: relative;
     position: absolute;
   }
@@ -11,7 +13,7 @@
     background: rgba(255, 255, 255, 0.9);
     width: 700px;
     position: absolute;
-    top: 150%;
+    top: 140%;
     left: 40%;
     padding: 70px 30px;
     text-align: center;
