@@ -1,6 +1,7 @@
 .footer {
   height: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   &__menu{
     color: rgb(255, 255, 255);
@@ -24,6 +25,11 @@
     color: rgb(26, 26, 26);
     font-weight: bold;
     padding: 20px;
+        text-shadow:0.5px 0.5px 0 #FFF, -0.5px -0.5px 0 #FFF,
+              -0.5px 0.5px 0 #FFF, 0.5px -0.5px 0 #FFF,
+              0px 0.5px 0 #FFF,  0-0.5px 0 #FFF,
+              -0.5px 0 0 #FFF, 0.5px 0 0 #FFF;
+
   }
 
 }
