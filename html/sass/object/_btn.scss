@@ -1,0 +1,20 @@
+/* ページTOPに戻るボタン */
+.btn-wrapper {
+  line-height: 50px;
+  text-align: center;
+  background: rgb(39, 39, 39);
+  color: #ffffff;
+  margin: 0 auto;
+  width: 20%;
+  cursor: pointer;
+  // border-radius: 5px;
+  border: 1px solid rgb(116, 116, 116) ;
+}
+
+/* ページTOPに戻るボタンアニメーション */
+.btn-wrapper:hover {
+  background: white;
+  color: #292828;
+  border: 1px solid rgb(53, 53, 53) ;
+  box-sizing: border-box;
+}

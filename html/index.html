@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Kosugi+Maru&display=swap" rel="stylesheet">
   <title>MIYAZATO MASATAKA'S PORTFOLIO</title>
 
 </head>
@@ -13,9 +14,9 @@
     <div class="header">
       <div class="header__menu">
         <ul class="header__list flex">
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">PROFILE</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li class="profile-btn"><a href="#">PROFILE</a></li>
+          <li class="works-btn"><a href="#">WORKS</a></li>
+          <li class="contact-btn"><a href="#">CONTACT</a></li>
         </ul>
       </div>
     </div>
@@ -23,12 +24,13 @@
   <main>
     <div class="main-visual">
       <div class="fade-img">
+        <img class="main-visual__img" src="img/masataka_park.JPG" alt="">
+        <img class="main-visual__img" src="img/masataka_oita - コピー.jpg" alt="">
+        <img class="main-visual__img" src="img/masataka_nagasaki - コピー.jpg" alt="">
         <img class="main-visual__img" src="img/masataka_beach.jpg" alt="">
-        <img class="main-visual__img" src="img/masataka_oita.jpg" alt="">
-        <img class="main-visual__img" src="img/masataka_nagasaki.jpg" alt="">
       </div>
       <div class="main-visual__title">
-        <h1>This is ME.</h1>
+        <h1>This is ME<span>.</span></h1>
         <h2>MIYAZATO MASATAKA'S PORTFOLIO</h2>
       </div>
       <div class="main-visual__scroll">
@@ -40,7 +42,7 @@
         <img class="profile__img" src="img/masataka_kyoto.jpg" alt="" width="500" height="500">
         <div class="profile__detail">
           <span>PROFILE</span>
-          <h1>MIYAZATO MASATAKA</h1>
+          <h1>MIYAZATO, Masataka</h1>
           <h2>Okinawa, JAPAN</h2>
           <p>　琉球大学在学中にハワイ大学へ留学。新卒で新聞社へ入社し、法人企業への企画営業を始め、イベント運営や記事執筆を担当。その後、外資系金融機関でバックオフィスを経験し、プログラマーの道へ。フロンドエンド。</p>
         </div>
@@ -72,41 +74,69 @@
             </div>
           </div>
           <div class="card mask-wrap">
-            <img src="img/To do list.PNG" alt="" class="card__img">
+            <img src="img/restaurant.PNG" alt="" class="card__img">
             <div class="mask">
-              <div class="caption">To Do List</div>
+              <div class="caption">Restaurant</div>
             </div>
           </div>
-          <div class="card mask-wrap">
+          <!-- <div class="card mask-wrap">
             <img src="img/BUTTON.PNG" alt="" class="card__img">
             <div class="mask">
               <div class="caption">Button Design</div>
             </div>
-          </div>
-          <div class="card mask-wrap">
+          </div> -->
+          <!-- <div class="card mask-wrap">
             <img src="img/Card Design.PNG" alt="" class="card__img">
             <div class="mask">
               <div class="caption">Card Design</div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
     <div class="bg__white">
       <div class="contact">
         <h1>CONTACT</h1>
-        <div class="square"></div>
+        <form>
+
+          <div class="item">
+            <label class="label">NAME</label>
+            <input class="inputs" type="text" name="name">
+          </div>
+
+          <div class="item">
+            <label class="label">MAIL ADDRESS</label>
+            <input class="inputs" type="email" name="email">
+          </div>
+          <div class="item">
+            <label class="label">MESSAGE</label>
+            <textarea class="inputs"></textarea>
+          </div>
+
+          <div class="btn-area">
+            <input type="submit" value="SUBMIT">
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <!-- ページTOPに戻るボタン -->
+    <div class="bg__white">
+      <div class="btn-wrapper">
+        <a class="btn js-scroll">BACK TO TOP</a>
       </div>
     </div>
   </main>
   <footer>
-    <div class="footer">
-      <div class="footer__menu">
-        <ul class="footer__list flex">
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">PROFILE</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+    <div class="bg__white">
+      <div class="footer">
+        <div class="footer__menu">
+          <ul class="footer__list flex">
+            <li class="profile-btn"><a href="#">PROFILE</a></li>
+            <li class="works-btn"><a href="#">WORKS</a></li>
+            <li class="contact-btn"><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>
