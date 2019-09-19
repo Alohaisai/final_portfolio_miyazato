@@ -56,3 +56,16 @@ input[type="submit"]{
   padding: 10px 100px;
   margin: 0 auto;
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:375px) {
+.contact {
+  display: flex;
+}
+
+.inputs{
+  float: left;
+  width:70%;
+}
+}
+/* SP MediaQuery end */

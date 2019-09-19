@@ -1,5 +1,6 @@
 .main-visual {
   height: 100vh;
+
   &__img{
     width: 100%;
     height: 100vh;
@@ -30,3 +31,42 @@
   width: 100%;
   height: auto;
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:375px) {
+.main-visual {
+    height: 100vh;
+
+  &__img{
+    width: auto;
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+  }
+
+  &__title{
+    color: white;
+    position: absolute;
+    top: 15%;
+    right:50%;
+
+    span{
+      color:#e0505d;
+    }
+  }
+
+  &__title h1 {
+    font-size: 60px;
+  }
+}
+
+.fade-img {
+  position:relative;
+}
+.fade-img img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+}
+/* SP MediaQuery end */

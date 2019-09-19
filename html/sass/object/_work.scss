@@ -8,3 +8,20 @@
     margin-bottom: 50px;
   }
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:375px) {
+.work {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  h1{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+}
+/* SP MediaQuery end */

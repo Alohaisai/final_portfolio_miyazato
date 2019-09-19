@@ -35,3 +35,46 @@ a span::after {
   box-sizing: border-box;
 }
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:375px) {
+  .main-visual__scroll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+
+a {
+  padding-top: 60px;
+  color: white;
+  text-decoration: none;
+}
+a span {
+  position: absolute;
+  top: -400%;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+}
+
+}
+/* SP MediaQuery end */

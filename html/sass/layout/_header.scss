@@ -35,3 +35,17 @@
   }
 
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:375px) {
+  .header {
+    width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  position: fixed;
+  margin-top: 10px;
+  // margin-right: auto;
+  // margin-left: auto;
+  z-index: 1;
+  }
+}
+/* SP MediaQuery end */
