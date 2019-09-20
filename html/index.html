@@ -7,12 +7,28 @@
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Kosugi+Maru&display=swap" rel="stylesheet">
   <title>MIYAZATO MASATAKA'S PORTFOLIO</title>
-
 </head>
+
 <body>
+
   <header>
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <div class="header__menu">
+          <ul class="header__list flex">
+            <li class="profile-btn"><a href="#">PROFILE</a></li>
+            <li class="works-btn"><a href="#">WORKS</a></li>
+            <li class="contact-btn"><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
     <div class="header">
-      <div class="header__menu">
+      <div class="header__menu__pc">
         <ul class="header__list flex">
           <li class="profile-btn"><a href="#">PROFILE</a></li>
           <li class="works-btn"><a href="#">WORKS</a></li>
@@ -21,20 +37,27 @@
       </div>
     </div>
   </header>
+
   <main>
     <div class="main-visual">
       <div class="fade-img">
         <picture class="main-visual__img">
-          <source media="(max-width: 376px)" srcset="img/masataka_nagasaki_sp.jpg">
-          <img src="img/masataka_nagasaki.jpg" alt="">
+          <source media="(max-width: 767px)" srcset="img/masataka_oita_sp.jpg">
+          <img src="img/masataka_oita_pc.jpg" alt="">
         </picture>
-        <!-- <img class="main-visual__img" src="img/masataka_park.JPG" alt="">
-        <img class="main-visual__img" src="img/masataka_oita - コピー.jpg" alt="">
-        <img class="main-visual__img" src="img/masataka_nagasaki - コピー.jpg" alt="">
-        <img class="main-visual__img pc" src="img/masataka_beach.jpg" alt=""> -->
+        <picture class="main-visual__img">
+          <source media="(max-width: 767px)" srcset="img/masataka_park_sp.JPG">
+          <img src="img/masataka_park_pc -.JPG" alt="">
+        </picture>
+        <picture class="main-visual__img">
+          <source media="(max-width: 767px)" srcset="img/masataka_beach_sp.jpg">
+          <img src="img/masataka_beach_pc.jpg" alt="">
+        </picture>
       </div>
-      <h1>This is <span>ME.</span></h1>
-      <h2>MIYAZATO MASATAKA'S PORTFOLIO</h2>
+      <div class="main-visual__title">
+        <h1>This is <span>ME.</span></h1>
+        <h2>MIYAZATO MASATAKA'S PORTFOLIO</h2>
+      </div>
     </div>
     <div class="main-visual__scroll">
       <a href="#"><span></span>Scroll</a>
@@ -142,7 +165,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../../js/Bootstrap/assets/js/bootstrap.min.js">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/jquery.js"></script>
 </body>

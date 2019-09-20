@@ -36,3 +36,49 @@
     transform:translateX(25%);
   }
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:767px) {
+// .profile {
+//   height: 100vh;
+// }
+
+// body {
+//   margin:0;
+// }
+
+.bg {
+  width: 100%;
+  animation:slide 5s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%);
+  bottom:-30%;
+  left:50%;
+  opacity:.5;
+  position:fixed;
+  right:50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  width: 100%;
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  width: 100%;
+  animation-duration:4.1s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+}
+/* SP MediaQuery end */

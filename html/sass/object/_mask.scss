@@ -30,3 +30,11 @@
 	transform:		rotateX(0deg);
 	opacity:		1;	/* ホバーで表示する */
 }
+
+/* SP MediaQuery */
+@media only screen and (max-width:767px) {
+.mask-wrap {
+	border: none;
+}
+}
+/* SP MediaQuery end */

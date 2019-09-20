@@ -1,8 +1,8 @@
 // メインビジュアル画像切り替え
 $(function () {
-  $(".fade-img img:not(:first-child)").hide();
+  $(".fade-img picture:not(:first-child)").hide();
   setInterval(function () {
-    $(".fade-img img:first-child").fadeOut("slow").next("img").fadeIn("slow").end().appendTo(".fade-img");
+    $(".fade-img picture:first-child").fadeOut("slow").next("picture").fadeIn("slow").end().appendTo(".fade-img");
   }, 5000);
 
   // スムーズスクロール トップに戻る
